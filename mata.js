@@ -51,7 +51,7 @@ let counter = 1;
 while (counter <= 100) {
   metadata.name = `SolanaArtProject #${counter}`;
   let jsonOutput = JSON.stringify(metadata, null, 2);
-  let fileName = `mata/metadata_${counter}.json`; // Update the file name with the desired format
+  let fileName = `mata/${counter}.json`; // Update the file name with the desired format
   fs.writeFileSync(fileName, jsonOutput);
   console.log(`Generated metadata file: ${fileName}`);
   counter++;
