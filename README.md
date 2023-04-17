@@ -1,4 +1,4 @@
-# sugar-cli-hello-world
+# hello-sugar
 This guide will walk you through minting NFT's from the Metaplex Sugar CLI, using Candy Machine v3. Compatible with MacOS and Linux distributions.
 
 When it comes to Solana NFT's, the Metaplex standard has become the dominant framework for best practices and outside integration. At the time of writing this guide, Candy Machine v2 had been depricated, and very few guides existed for the use of Candy Machine v3. Feel free to copy and circulate as you see fit!
