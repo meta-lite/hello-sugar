@@ -26,7 +26,6 @@ When it comes to Solana NFT's, the Metaplex standard has become the dominant fra
 * Congratulations, you've minted your first Solana NFT on Metaplex. This process is almost identical for Mainnet, with the unique exception of the network configuration. To point your Solana CLI at the Mainnet cluster run ```solana config set --url https://api.mainnet-beta.solana.com``` and for larger collections browse the [list of RPC providers](https://docs.metaplex.com/resources/rpc-providers)
 
 #### Metaplex file types are as follows: 
-#####`properties.category - Supported categories:`
 - `"image" - PNG, GIF, JPG`
 - `"video" - MP4, MOV`
 - `"audio" - MP3, FLAC, WAV`
