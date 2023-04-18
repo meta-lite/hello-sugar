@@ -25,12 +25,16 @@ When it comes to Solana NFT's, the Metaplex standard has become the dominant fra
 * Our candy machine is now active on Devnet! To mint the first NFT, run ```sugar mint``` or to mint the entire collection run ```sugar mint -n 10``` with 10 being the number of NFT's in the collection.
 * Congratulations, you've minted your first Solana NFT on Metaplex. This process is almost identical for Mainnet, with the unique exception of the network configuration. To point your Solana CLI at the Mainnet cluster run ```solana config set --url https://api.mainnet-beta.solana.com``` and for larger collections browse the [list of RPC providers](https://docs.metaplex.com/resources/rpc-providers)
 
-* Metaplex file types are as follows: 
-`properties.category - Supported categories:`
--- `"image" - PNG, GIF, JPG`
--- `"video" - MP4, MOV`
--- `"audio" - MP3, FLAC, WAV`
--- `"vr" - 3D models; GLB, GLTF`
--- `"html" - HTML pages`
+#### Metaplex file types are as follows: 
+#####`properties.category - Supported categories:`
+- `"image" - PNG, GIF, JPG`
+- `"video" - MP4, MOV`
+- `"audio" - MP3, FLAC, WAV`
+- `"vr" - 3D models; GLB, GLTF`
+- `"html" - HTML pages`
+
+- Add a URL with the external url value: `"external_url": "https://solflare.com",`
+
+
 
 My hope is that this guide will serve as a useful resource during the transition from CMv2 to CMv3. Metaplex is an amazing tool set and a crucial componet of the Solana ecosystem, and as such its adoption and user accesability is key to network growth. 
